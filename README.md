@@ -15,6 +15,9 @@
 
 Ordering System Web Service
 
+## About Ordering System
+OrderingSystem is a web application designed to facilitate the ordering process for various medical examinations provided by the healthcare system. Patients can create an account through registration and then proceed to schedule their desired examination with a nurse or doctor. Doctors and nurses have the authority to set examination appointments, while the admin is responsible for managing user accounts.
+
 ## Description
 
 Backend service for ordering system.
