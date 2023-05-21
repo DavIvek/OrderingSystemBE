@@ -1,0 +1,27 @@
+spring.application.name=ordering-system-web-service
+server.port=9200
+spring.datasource.url=jdbc:postgresql://database:5432/ordering-system
+spring.datasource.username=lorem
+spring.datasource.password=ipsum22
+
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+
+logging.level.hr.fer=INFO
+
+# App Properties
+orderingsystem.app.jwtSecret=<jwt-secret>
+orderingsystem.app.jwtExpirationMs=86400000
+
+# Email Data
+spring.mail.host=us2.smtp.mailhostbox.com
+spring.mail.port=587
+spring.mail.username=<username>
+spring.mail.password=<password>
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+
+# SMS data
+twilio.account.sid=<account-sid>
+twilio.auth.token=<auth-token>
+twilio.phone.number=<phone-from>
